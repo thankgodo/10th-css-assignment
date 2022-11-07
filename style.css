@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(23, 23, 22);
+}
+
+.nav{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    /* margin: 0px 120px; */
+    justify-content: space-between;
+    background-color: rgb(13, 13, 13);
+}
+
+.nav h2{
+  margin-left: 120px;
+    color: green;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pic img{
+  margin-right: 130px;
+    border-radius: 50%;
+}
+
+.navmenu, a {  
+    color: aliceblue;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.dserv ul {
+   position: relative;
+   list-style: none;
+}
+.dunix{
+list-style: none;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+   background-color: rgb(218, 225, 231);
+}
+.ang-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 10px;
+    width: 100vw;
+    height: 100%;
+    /* color: red; */
+    font-size: 16px;
+    margin-top: 0px;
+    
+ }
+   p{
+      margin-left: 10px;
+   }
+ #item-0 {
+ 
+    background-color: white; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+    height: 160px;
+ }
+ #item-1 {
+ 
+    background-color: white; 
+    grid-row-start: 1;
+    grid-column-start: 5;
+ 
+    grid-row-end: 7;
+    grid-column-end: 9;
+    
+ }
+ #item-1 p img{
+    margin: 0;
+    width: 80px;
+    border-radius: 50%;
+ }
+ p{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: blue;
+    font-size: 28px;
+ }
+ #item-1 img{
+    padding: 20px;
+    width: 480px;
+    height: auto;
+ }
+ #item-2 {
+ 
+    background-color: white; 
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 9;
+    grid-column-end: 5;
+ }
+ #item-2 img{
+   padding: 20px;
+   width: 480px;
+   height: auto;
+ }
+ #item-2 p img{
+    margin: 0;
+    width: 80px;
+    border-radius: 50%;
+ }
+ #item-3 {
+ 
+    background-color: white; 
+    grid-row-start: 7;
+    grid-column-start: 5;
+ 
+    grid-row-end: 9;
+    grid-column-end: 9;
+    
+ }
+ #item-3 img{
+    padding: 20px;
+    width: 440px;
+    height: auto;
+}
+ #item-3 p img{
+    margin: 0;
+    width: 80px;
+    border-radius: 50%;
+ }
+ #item-4 {
+ 
+    background-color: white; 
+    grid-row-start: 1;
+    grid-column-start: 9;
+ 
+    grid-row-end: 9;
+    grid-column-end: 12;
+    
+ }
